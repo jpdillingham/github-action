@@ -1,0 +1,23 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "Proof of concept for a custom GitHub action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdillingham/github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpdillingham/github-action/issues"
+  },
+  "homepage": "https://github.com/jpdillingham/github-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}
